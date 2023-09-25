@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA73CF9E2AC186FC00FDACBD /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CA73CF9D2AC186FC00FDACBD /* RealityKitContent */; };
+		CA73CFA02AC186FC00FDACBD /* TheaterRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73CF9F2AC186FC00FDACBD /* TheaterRoomApp.swift */; };
+		CA73CFA22AC186FC00FDACBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73CFA12AC186FC00FDACBD /* ContentView.swift */; };
+		CA73CFA42AC186FC00FDACBD /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73CFA32AC186FC00FDACBD /* ImmersiveView.swift */; };
+		CA73CFA62AC186FC00FDACBD /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = CA73CFA52AC186FC00FDACBD /* ImageBasedLighting.skybox */; };
+		CA73CFA82AC186FF00FDACBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA73CFA72AC186FF00FDACBD /* Assets.xcassets */; };
+		CA73CFAB2AC186FF00FDACBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA73CFAA2AC186FF00FDACBD /* Preview Assets.xcassets */; };
+		CA73CFB52AC186FF00FDACBD /* TheaterRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73CFB42AC186FF00FDACBD /* TheaterRoomTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA73CFB12AC186FF00FDACBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA73CF902AC186FC00FDACBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA73CF972AC186FC00FDACBD;
+			remoteInfo = TheaterRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA73CF982AC186FC00FDACBD /* TheaterRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA73CF9C2AC186FC00FDACBD /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CA73CF9F2AC186FC00FDACBD /* TheaterRoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterRoomApp.swift; sourceTree = "<group>"; };
+		CA73CFA12AC186FC00FDACBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA73CFA32AC186FC00FDACBD /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		CA73CFA52AC186FC00FDACBD /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		CA73CFA72AC186FF00FDACBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA73CFAA2AC186FF00FDACBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA73CFB02AC186FF00FDACBD /* TheaterRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA73CFB42AC186FF00FDACBD /* TheaterRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterRoomTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA73CF952AC186FC00FDACBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73CF9E2AC186FC00FDACBD /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73CFAD2AC186FF00FDACBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA73CF8F2AC186FC00FDACBD = {
+			isa = PBXGroup;
+			children = (
+				CA73CF9A2AC186FC00FDACBD /* TheaterRoom */,
+				CA73CF9B2AC186FC00FDACBD /* Packages */,
+				CA73CFB32AC186FF00FDACBD /* TheaterRoomTests */,
+				CA73CF992AC186FC00FDACBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA73CF992AC186FC00FDACBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA73CF982AC186FC00FDACBD /* TheaterRoom.app */,
+				CA73CFB02AC186FF00FDACBD /* TheaterRoomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA73CF9A2AC186FC00FDACBD /* TheaterRoom */ = {
+			isa = PBXGroup;
+			children = (
+				CA73CF9F2AC186FC00FDACBD /* TheaterRoomApp.swift */,
+				CA73CFA12AC186FC00FDACBD /* ContentView.swift */,
+				CA73CFA32AC186FC00FDACBD /* ImmersiveView.swift */,
+				CA73CFA52AC186FC00FDACBD /* ImageBasedLighting.skybox */,
+				CA73CFA72AC186FF00FDACBD /* Assets.xcassets */,
+				CA73CFA92AC186FF00FDACBD /* Preview Content */,
+			);
+			path = TheaterRoom;
+			sourceTree = "<group>";
+		};
+		CA73CF9B2AC186FC00FDACBD /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CA73CF9C2AC186FC00FDACBD /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CA73CFA92AC186FF00FDACBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA73CFAA2AC186FF00FDACBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA73CFB32AC186FF00FDACBD /* TheaterRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA73CFB42AC186FF00FDACBD /* TheaterRoomTests.swift */,
+			);
+			path = TheaterRoomTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA73CF972AC186FC00FDACBD /* TheaterRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA73CFB82AC186FF00FDACBD /* Build configuration list for PBXNativeTarget "TheaterRoom" */;
+			buildPhases = (
+				CA73CF942AC186FC00FDACBD /* Sources */,
+				CA73CF952AC186FC00FDACBD /* Frameworks */,
+				CA73CF962AC186FC00FDACBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheaterRoom;
+			packageProductDependencies = (
+				CA73CF9D2AC186FC00FDACBD /* RealityKitContent */,
+			);
+			productName = TheaterRoom;
+			productReference = CA73CF982AC186FC00FDACBD /* TheaterRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA73CFAF2AC186FF00FDACBD /* TheaterRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA73CFBB2AC186FF00FDACBD /* Build configuration list for PBXNativeTarget "TheaterRoomTests" */;
+			buildPhases = (
+				CA73CFAC2AC186FF00FDACBD /* Sources */,
+				CA73CFAD2AC186FF00FDACBD /* Frameworks */,
+				CA73CFAE2AC186FF00FDACBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA73CFB22AC186FF00FDACBD /* PBXTargetDependency */,
+			);
+			name = TheaterRoomTests;
+			productName = TheaterRoomTests;
+			productReference = CA73CFB02AC186FF00FDACBD /* TheaterRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA73CF902AC186FC00FDACBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CA73CF972AC186FC00FDACBD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CA73CFAF2AC186FF00FDACBD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CA73CF972AC186FC00FDACBD;
+					};
+				};
+			};
+			buildConfigurationList = CA73CF932AC186FC00FDACBD /* Build configuration list for PBXProject "TheaterRoom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA73CF8F2AC186FC00FDACBD;
+			productRefGroup = CA73CF992AC186FC00FDACBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA73CF972AC186FC00FDACBD /* TheaterRoom */,
+				CA73CFAF2AC186FF00FDACBD /* TheaterRoomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA73CF962AC186FC00FDACBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73CFA82AC186FF00FDACBD /* Assets.xcassets in Resources */,
+				CA73CFAB2AC186FF00FDACBD /* Preview Assets.xcassets in Resources */,
+				CA73CFA62AC186FC00FDACBD /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73CFAE2AC186FF00FDACBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA73CF942AC186FC00FDACBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73CFA22AC186FC00FDACBD /* ContentView.swift in Sources */,
+				CA73CFA02AC186FC00FDACBD /* TheaterRoomApp.swift in Sources */,
+				CA73CFA42AC186FC00FDACBD /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73CFAC2AC186FF00FDACBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73CFB52AC186FF00FDACBD /* TheaterRoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA73CFB22AC186FF00FDACBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA73CF972AC186FC00FDACBD /* TheaterRoom */;
+			targetProxy = CA73CFB12AC186FF00FDACBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA73CFB62AC186FF00FDACBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CA73CFB72AC186FF00FDACBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		CA73CFB92AC186FF00FDACBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheaterRoom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = we.TheaterRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CA73CFBA2AC186FF00FDACBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheaterRoom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = we.TheaterRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		CA73CFBC2AC186FF00FDACBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = we.TheaterRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheaterRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheaterRoom";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CA73CFBD2AC186FF00FDACBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = we.TheaterRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheaterRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheaterRoom";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA73CF932AC186FC00FDACBD /* Build configuration list for PBXProject "TheaterRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73CFB62AC186FF00FDACBD /* Debug */,
+				CA73CFB72AC186FF00FDACBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA73CFB82AC186FF00FDACBD /* Build configuration list for PBXNativeTarget "TheaterRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73CFB92AC186FF00FDACBD /* Debug */,
+				CA73CFBA2AC186FF00FDACBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA73CFBB2AC186FF00FDACBD /* Build configuration list for PBXNativeTarget "TheaterRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73CFBC2AC186FF00FDACBD /* Debug */,
+				CA73CFBD2AC186FF00FDACBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA73CF9D2AC186FC00FDACBD /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA73CF902AC186FC00FDACBD /* Project object */;
+}
